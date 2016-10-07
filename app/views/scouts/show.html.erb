@@ -1,0 +1,22 @@
+<p>
+  <strong>First name:</strong>
+  <%= @scout.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @scout.last_name %>
+</p>
+
+<p>
+  <strong>Troop:</strong>
+  <%= @scout.troop %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @scout.email %>
+</p>
+
+<%= link_to 'Edit', edit_scout_path(@scout) %> |
+<%= link_to 'Back', scouts_path %>
